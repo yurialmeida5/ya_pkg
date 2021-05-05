@@ -1,0 +1,10 @@
+Package: ya
+Type: Package
+Title: What the Package Does (Title Case)
+Version: 0.1.0
+Author: Yuri Almeida <yurialmeida5@gmail.com>
+Maintainer: The package maintainer <yourself@somewhere.net>
+Description: Demo R package
+License: GPL-2
+Encoding: UTF-8
+LazyData: true
