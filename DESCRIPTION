@@ -1,12 +1,13 @@
 Package: ya
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Exchange Currency Rates Extraction
 Version: 0.1.0
 Author: Yuri Almeida <yurialmeida5@gmail.com>
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: Demo R package
+Maintainer: The package maintainer <yurialmeida5@gmail.com>
+Description: This package was created as a final home assignment for the class Mastering-R-Projects. It contains functions that help to format numeric values to HUF currency format and extract exchange currency values based on initial and final dates.
 License: GPL-2
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.0.2
 Imports:checkmate, scales, logger, jsonlite
+Remotes::binancer

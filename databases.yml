@@ -1,0 +1,7 @@
+remotemysql:
+  host: mastering-r.cjue7wnqdgs4.eu-west-1.rds.amazonaws.com
+  port: 3306
+  dbname: mr
+  user: admin
+  password: 7zbvApaLvu2wlOv7iiIMUHEnRsUdRyz
+  drv: !expr RMySQL::MySQL()

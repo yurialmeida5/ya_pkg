@@ -8,9 +8,7 @@
 #' forint(42)
 #' forint(10000000.213214)
 
-
-
 forint <- function(x){
-  checkmate::assert_number(x)
-  scales::dollar(x, prefix = "", suffix = " Ft")
+  assert_numeric(x)
+  dollar(x, prefix = "", suffix = " Ft")
 }
