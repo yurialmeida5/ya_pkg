@@ -11,4 +11,6 @@ LazyData: true
 RoxygenNote: 7.1.1
 Imports: checkmate, scales, logger, jsonlite, data.table, httr
 Remotes: binancer
-Suggests: testthat
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
